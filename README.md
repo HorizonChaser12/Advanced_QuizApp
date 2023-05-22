@@ -1,4 +1,4 @@
-# advanced_project_2
+# Advanced Quiz App
 
 A new Flutter project.
 
