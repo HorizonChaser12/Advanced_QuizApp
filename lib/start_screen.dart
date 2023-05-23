@@ -1,50 +1,77 @@
-// ignore_for_file: library_private_types_in_public_api
-
 import 'package:flutter/material.dart';
-
-const startAlignment = Alignment.topCenter;
-const endAlignmnet = Alignment.bottomCenter;
 
 class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
   @override
   Widget build(context) {
-    return Container(
-      decoration: const BoxDecoration(
-        gradient: LinearGradient(
-          colors: [
-            Color.fromARGB(61, 100, 10, 123),
-            Color.fromARGB(242, 156, 26, 189),
-          ],
-          begin: startAlignment,
-          end: endAlignmnet,
-        ),
-      ),
-      child: const Center(
-        child: null,
+    return Center(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Image.asset(
+            'assets/quiz-logo.png',
+            height: 300,
+            width: 300,
+            color: const Color.fromARGB(137, 235, 234, 234),
+          ),
+          // Opacity(
+          //   opacity: 0.7,
+          //   child: Image.asset(
+          //     'assets/quiz-logo.png',
+          //     width: 200,
+          //   ),
+          // ),
+          const SizedBox(
+            height: 50,
+          ),
+          const Text(
+            "Learn Flutter in the Best Way!",
+            style: TextStyle(
+                color: Color.fromARGB(255, 222, 194, 234),
+                fontSize: 25,
+                fontStyle: FontStyle.italic),
+          ),
+          const SizedBox(
+            height: 25,
+          ),
+          OutlinedButton.icon(
+              onPressed: () {},
+              style: OutlinedButton.styleFrom(
+                  // padding: const EdgeInsets.only(top: 20),
+                  backgroundColor: const Color.fromARGB(255, 113, 68, 204),
+                  foregroundColor: const Color.fromARGB(255, 187, 111, 204),
+                  textStyle: const TextStyle(fontSize: 25)),
+              icon: const Icon(Icons.arrow_right_alt),
+              label: const Text(
+                "Start Quiz!",
+                style: TextStyle(
+                    color: Color.fromARGB(255, 222, 194, 234), fontSize: 25),
+              ))
+        ],
       ),
     );
   }
 }
 
-class MyAppBar extends StatefulWidget implements PreferredSizeWidget {
-  const MyAppBar({Key? key})
-      : preferredSize = const Size.fromHeight(kToolbarHeight),
-        super(key: key);
-  @override
-  final Size preferredSize; // default is 56.0
+// class MyAppBar extends StatefulWidget implements PreferredSizeWidget {
+//   const MyAppBar({Key? key})
+//       : preferredSize = const Size.fromHeight(kToolbarHeight),
+//         super(key: key);
+//   @override
+//   final Size preferredSize; // default is 56.0
 
-  @override
-  _CustomAppBarState createState() => _CustomAppBarState();
-}
+//   @override
+//   // ignore: library_private_types_in_public_api
+//   _CustomAppBarState createState() => _CustomAppBarState();
+// }
 
-class _CustomAppBarState extends State<MyAppBar> {
-  @override
-  Widget build(BuildContext context) {
-    return AppBar(
-      title: const Text('Quiz App'),
-      centerTitle: true,
-      backgroundColor: const Color.fromARGB(255, 178, 118, 188),
-    );
-  }
-}
+// class _CustomAppBarState extends State<MyAppBar> {
+//   @override
+//   Widget build(BuildContext context) {
+//     return AppBar(
+//       title: const Text('Quiz App'),
+//       centerTitle: true,
+//       backgroundColor: const Color.fromARGB(255, 178, 118, 188),
+//     );
+//   }
+// }
