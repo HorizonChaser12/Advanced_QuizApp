@@ -1,6 +1,7 @@
 # Advanced Quiz App
 
-A new Flutter project.
+This is a Advanced project of the same quiz app(Project-2) which I learnt though Udemy's course on Flutter development.This app contains multiple screens,some of those are StartScreen,QuestionScreen and the ResultScreen.
+Hoping to update it more after I advance in this sector ahead.
 
 ## Getting Started
 
