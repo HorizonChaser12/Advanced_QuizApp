@@ -11,7 +11,13 @@ class Quiz extends StatefulWidget {
 }
 
 class _QuizState extends State<Quiz> {
-  Widget activeScreen = const StartScreen();
+  Widget? activeScreen;
+
+  @override
+  void initState() {
+    activeScreen = StartScreen(switchScreen);
+    super.initState();
+  }
 
   void switchScreen() {
     setState(() {
@@ -27,8 +33,8 @@ class _QuizState extends State<Quiz> {
         decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [
-              Color.fromARGB(155, 86, 19, 103),
-              Color.fromARGB(241, 156, 113, 167),
+              Color.fromARGB(237, 109, 24, 130),
+              Color.fromARGB(184, 164, 92, 182),
             ],
             begin: Alignment.bottomCenter,
             end: Alignment.topCenter,
