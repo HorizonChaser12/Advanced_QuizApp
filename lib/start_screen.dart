@@ -29,10 +29,10 @@ class StartScreen extends StatelessWidget {
           const Text(
             "Learn Flutter in the Best Way!",
             style: TextStyle(
-                color: Color.fromARGB(255, 222, 194, 234),
-                fontSize: 25,
-                fontWeight: FontWeight.bold,
-                fontStyle: FontStyle.italic),
+              color: Color.fromARGB(255, 222, 194, 234),
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+            ),
           ),
           const SizedBox(
             height: 25,
@@ -44,14 +44,14 @@ class StartScreen extends StatelessWidget {
               // onPressed: startQuiz,
               style: OutlinedButton.styleFrom(
                   // padding: const EdgeInsets.only(top: 20),
-                  backgroundColor: const Color.fromARGB(255, 82, 49, 149),
-                  foregroundColor: const Color.fromARGB(255, 187, 111, 204),
+                  backgroundColor: const Color.fromARGB(255, 60, 9, 108),
+                  foregroundColor: const Color.fromARGB(255, 205, 180, 219),
                   textStyle: const TextStyle(fontSize: 25)),
               icon: const Icon(Icons.arrow_right_alt),
               label: const Text(
                 "Start Quiz!",
                 style: TextStyle(
-                    color: Color.fromARGB(255, 222, 194, 234), fontSize: 25),
+                    color: Color.fromARGB(255, 205, 180, 219), fontSize: 25),
               ))
         ],
       ),
