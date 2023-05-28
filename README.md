@@ -7,11 +7,11 @@ Hoping to update it more after I advance in this sector ahead.
 
 Below are the screenshots:
 
-<img src="https://github.com/HorizonChaser12/Advanced_QuizApp/assets/78254378/8c640148-ed09-4dbb-bf17-869d97c59e4e" width="100" height="100">
+<img src="https://github.com/HorizonChaser12/Advanced_QuizApp/assets/78254378/8c640148-ed09-4dbb-bf17-869d97c59e4e" width="400" height="600" >
 
-<img src="https://github.com/HorizonChaser12/Advanced_QuizApp/assets/78254378/552da053-34ea-4c91-a1e4-9af81e51607e" width="100" height="100">
+<img src="https://github.com/HorizonChaser12/Advanced_QuizApp/assets/78254378/552da053-34ea-4c91-a1e4-9af81e51607e" width="100" height="400">
 
-<img src="https://github.com/HorizonChaser12/Advanced_QuizApp/assets/78254378/bf7c7930-6b08-4cdf-92a0-c8d9e62657bd" width="100" height="100">
+<img src="https://github.com/HorizonChaser12/Advanced_QuizApp/assets/78254378/bf7c7930-6b08-4cdf-92a0-c8d9e62657bd" width="100" height="400">
 
 </hr>
 
