@@ -7,6 +7,7 @@ Hoping to update it more after I advance in this sector ahead.
 
 Below are the screenshots:
 ![Screenshot_1685285954](https://github.com/HorizonChaser12/Advanced_QuizApp/assets/78254378/8c640148-ed09-4dbb-bf17-869d97c59e4e)
+
 img[alt=Screenshot_1685285954] { width: 200px; }
 
 
