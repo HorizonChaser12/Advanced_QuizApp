@@ -3,6 +3,18 @@
 This is a Advanced project of the same quiz app(Project-2) which I learnt though Udemy's course on Flutter development.This app contains multiple screens,some of those are StartScreen,QuestionScreen and the ResultScreen.
 Hoping to update it more after I advance in this sector ahead.
 
+<hr>
+
+Below are the screenshots:
+
+![Screenshot_1685285954](https://github.com/HorizonChaser12/Advanced_QuizApp/assets/78254378/8c640148-ed09-4dbb-bf17-869d97c59e4e)
+
+![Screenshot_1685285963](https://github.com/HorizonChaser12/Advanced_QuizApp/assets/78254378/552da053-34ea-4c91-a1e4-9af81e51607e)
+
+![Screenshot_1685286027](https://github.com/HorizonChaser12/Advanced_QuizApp/assets/78254378/bf7c7930-6b08-4cdf-92a0-c8d9e62657bd)
+
+</hr>
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
