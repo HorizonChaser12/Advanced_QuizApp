@@ -7,7 +7,7 @@ Hoping to update it more after I advance in this sector ahead.
 
 Below are the screenshots:
 
-<img src="https://github.com/HorizonChaser12/Advanced_QuizApp/assets/78254378/80541a1b-4d03-4d62-9b27-2c7d28e40923" width="300" height="650" >
+<img src="https://github.com/HorizonChaser12/Advanced_QuizApp/assets/78254378/80541a1b-4d03-4d62-9b27-2c7d28e40923" width="860" height="650" >
 
 </hr>
 
