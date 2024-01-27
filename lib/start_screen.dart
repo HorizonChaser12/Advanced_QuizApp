@@ -31,7 +31,7 @@ class StartScreen extends StatelessWidget {
             "Learn Flutter in the Best Way!",
             style: GoogleFonts.montserrat(
                 color: const Color.fromARGB(255, 222, 194, 234),
-                fontSize: 25,
+                fontSize: 24,
                 fontWeight: FontWeight.bold),
             // style: TextStyle(
             //   color: Color.fromARGB(255, 222, 194, 234),
@@ -41,11 +41,10 @@ class StartScreen extends StatelessWidget {
           const SizedBox(
             height: 25,
           ),
-          OutlinedButton.icon(
+          ElevatedButton.icon(
               onPressed: () {
                 startQuiz();
               },
-              // onPressed: startQuiz,
               style: OutlinedButton.styleFrom(
                   // padding: const EdgeInsets.only(top: 20),
                   backgroundColor: const Color.fromARGB(255, 60, 9, 108),
